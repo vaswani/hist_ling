@@ -1,0 +1,7 @@
+[amadeus:~/writings/latentvariable/m2m-aligner-1.0] ./m2m-aligner --delX --maxX 3 --maxY 3 -i cmu.part0.first1000 --maxFn joint --cutoff 5 --ashish --eqMap
+
+
+--cutoff: number of EM iterations
+--eqMap: all 2-2, 3-3, 4-4, etc. alignments
+--maxFn: joint, conXY, or conYX (obj. function)
+

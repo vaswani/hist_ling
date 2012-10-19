@@ -1,0 +1,3624 @@
+1000
+1.25
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1.25
+--pgdIter
+1000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 19:30:37 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 1000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 1000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 1000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 1000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 1000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 1000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 1000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 1000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 1000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 1000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 19:33:59 2012
+202 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 442
+Time stamp: Sat Mar 17 19:33:59 2012
+202 seconds after started
+
+443
+BO	BOY	0.000118685042014037
+BO	AH	0.000244872624728846
+BO	BOW	0.000352148569666166
+1000
+1
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1
+--pgdIter
+1000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 19:33:59 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 19:37:28 2012
+209 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 433
+Time stamp: Sat Mar 17 19:37:29 2012
+210 seconds after started
+
+434
+BO	BAO	0.000143452404733119
+BO	AH	0.000218492394634088
+BO	BOW	0.000405236589147594
+1000
+0.75
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.75
+--pgdIter
+1000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 19:37:29 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 1000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 1000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 1000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 1000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 1000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 1000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 1000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 1000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 1000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 1000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 19:41:07 2012
+218 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 445
+Time stamp: Sat Mar 17 19:41:07 2012
+218 seconds after started
+
+446
+BO	AH	0.000241346544786286
+BO	B	0.000249247576356783
+BO	BOW	0.000409199942449902
+1000
+0.5
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.5
+--pgdIter
+1000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 19:41:07 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 1000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 1000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 1000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 1000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 1000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 1000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 1000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 1000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 1000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 1000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 19:44:15 2012
+188 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 448
+Time stamp: Sat Mar 17 19:44:15 2012
+188 seconds after started
+
+449
+BO	AH	0.000244472069221478
+BO	BOW	0.000428528597861564
+1000
+0.25
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.25
+--pgdIter
+1000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 19:44:15 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 1000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 1000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 1000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 1000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 1000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 1000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 1000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 1000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 1000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 1000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 19:47:39 2012
+204 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 428
+Time stamp: Sat Mar 17 19:47:39 2012
+204 seconds after started
+
+429
+BO	BAO	0.000107521970240594
+BO	AH	0.000212544042648764
+BO	BOW	0.000413869321204362
+1000
+1
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1
+--pgdIter
+1000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 19:47:39 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 1000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 19:51:08 2012
+209 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 433
+Time stamp: Sat Mar 17 19:51:09 2012
+210 seconds after started
+
+434
+BO	BAO	0.000143452404733119
+BO	AH	0.000218492394634088
+BO	BOW	0.000405236589147594
+2500
+1.25
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1.25
+--pgdIter
+2500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 19:51:09 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 2500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 2500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 2500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 2500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 2500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 2500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 2500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 2500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 2500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 2500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 19:56:24 2012
+315 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 415
+Time stamp: Sat Mar 17 19:56:24 2012
+315 seconds after started
+
+416
+BO	AH	0.00020026372349838
+BO	B	0.000339132129358799
+BO	BOW	0.000427400458321356
+2500
+1
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1
+--pgdIter
+2500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 19:56:25 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 20:00:38 2012
+253 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 422
+Time stamp: Sat Mar 17 20:00:38 2012
+253 seconds after started
+
+423
+BO	AH	0.000220204157000856
+BO	BOW	0.000383996937072525
+BO	B	0.000439523109165349
+2500
+0.75
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.75
+--pgdIter
+2500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 20:00:38 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 2500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 2500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 2500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 2500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 2500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 2500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 2500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 2500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 2500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 2500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 20:06:40 2012
+362 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 393
+Time stamp: Sat Mar 17 20:06:41 2012
+363 seconds after started
+
+394
+BO	AH	0.000225221568946064
+BO	B	0.000386726486076491
+BO	BOW	0.000453474888142146
+2500
+0.5
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.5
+--pgdIter
+2500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 20:06:41 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 2500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 2500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 2500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 2500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 2500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 2500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 2500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 2500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 2500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 2500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 20:10:55 2012
+254 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 443
+Time stamp: Sat Mar 17 20:10:56 2012
+255 seconds after started
+
+444
+BO	BAO	0.00012150499031831
+BO	AH	0.00022857510398013
+BO	BOW	0.000425542491931749
+BO	B	0.000492967379462118
+2500
+0.25
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.25
+--pgdIter
+2500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 20:10:56 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 2500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 2500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 2500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 2500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 2500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 2500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 2500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 2500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 2500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 2500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 20:16:03 2012
+307 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 412
+Time stamp: Sat Mar 17 20:16:03 2012
+307 seconds after started
+
+413
+BO	AH	0.000256482900327337
+BO	BOW	0.000396383758059001
+BO	B	0.000432609831204113
+2500
+1
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1
+--pgdIter
+2500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 20:16:03 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 2500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 20:20:16 2012
+253 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 422
+Time stamp: Sat Mar 17 20:20:16 2012
+253 seconds after started
+
+423
+BO	AH	0.000220204157000856
+BO	BOW	0.000383996937072525
+BO	B	0.000439523109165349
+5000
+1.25
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1.25
+--pgdIter
+5000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 20:20:16 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 5000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 5000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 5000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 5000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 5000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 5000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 5000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 5000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 5000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 5000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 20:28:50 2012
+514 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 409
+Time stamp: Sat Mar 17 20:28:50 2012
+514 seconds after started
+
+410
+BO	BAO	0.000128965174520283
+BO	BOY	0.000149861735521884
+BO	AH	0.000180680638634107
+BO	B	0.000216126600429391
+BO	BOW	0.000417476874713791
+5000
+1
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1
+--pgdIter
+5000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 20:28:50 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 20:35:27 2012
+397 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 424
+Time stamp: Sat Mar 17 20:35:28 2012
+398 seconds after started
+
+425
+BO	BOY	0.000117529820734702
+BO	BAO	0.000145907596736787
+BO	AH	0.000192377300559062
+BO	B	0.000225118091697611
+BO	BOW	0.000521003553117028
+5000
+0.75
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.75
+--pgdIter
+5000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 20:35:28 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 5000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 5000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 5000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 5000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 5000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 5000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 5000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 5000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 5000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 5000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 20:42:54 2012
+446 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 407
+Time stamp: Sat Mar 17 20:42:54 2012
+446 seconds after started
+
+408
+BO	BAO	0.000138443789214322
+BO	B	0.000231363323707523
+BO	AH	0.000336509525539177
+BO	BOW	0.000425574287439756
+5000
+0.5
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.5
+--pgdIter
+5000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 20:42:54 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 5000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 5000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 5000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 5000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 5000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 5000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 5000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 5000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 5000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 5000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 20:50:50 2012
+476 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 402
+Time stamp: Sat Mar 17 20:50:50 2012
+476 seconds after started
+
+403
+BO	BAO	0.00011934451274592
+BO	AH	0.000209286809623797
+BO	B	0.000385691949827025
+BO	BOW	0.000389337320387534
+5000
+0.25
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.25
+--pgdIter
+5000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 20:50:50 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 5000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 5000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 5000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 5000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 5000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 5000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 5000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 5000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 5000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 5000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 20:58:53 2012
+483 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 397
+Time stamp: Sat Mar 17 20:58:53 2012
+483 seconds after started
+
+398
+BO	BAO	0.000100367538469768
+BO	BOY	0.000162195405846873
+BO	AH	0.000255450727678706
+BO	B	0.000286312125591932
+BO	BOW	0.000403903702729837
+5000
+1
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1
+--pgdIter
+5000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 20:58:53 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 5000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 21:05:31 2012
+398 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 424
+Time stamp: Sat Mar 17 21:05:32 2012
+399 seconds after started
+
+425
+BO	BOY	0.000117529820734702
+BO	BAO	0.000145907596736787
+BO	AH	0.000192377300559062
+BO	B	0.000225118091697611
+BO	BOW	0.000521003553117028
+7500
+1.25
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1.25
+--pgdIter
+7500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 21:05:32 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 7500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 7500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 7500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 7500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 7500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 7500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 7500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 7500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 7500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 7500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 21:16:07 2012
+635 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 384
+Time stamp: Sat Mar 17 21:16:07 2012
+635 seconds after started
+
+385
+BO	BOY	0.00012589259654475
+BO	AH	0.000249661435571327
+BO	B	0.000317581705524081
+BO	BOW	0.000439023018205866
+7500
+1
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1
+--pgdIter
+7500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 21:16:08 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 21:26:17 2012
+609 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 401
+Time stamp: Sat Mar 17 21:26:17 2012
+609 seconds after started
+
+402
+BO	BAO	0.000124088866274123
+BO	AH	0.000236483567616883
+BO	B	0.000246798927266144
+BO	BOW	0.000415248929646152
+7500
+0.75
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.75
+--pgdIter
+7500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 21:26:17 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 7500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 7500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 7500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 7500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 7500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 7500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 7500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 7500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 7500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 7500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 21:36:14 2012
+597 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 411
+Time stamp: Sat Mar 17 21:36:14 2012
+597 seconds after started
+
+412
+BO	BAO	0.000104343920587512
+BO	BOY	0.000104497707689673
+BO	AH	0.000245714966851088
+BO	B	0.00033147078299268
+BO	BOW	0.000425373837331475
+7500
+0.5
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.5
+--pgdIter
+7500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 21:36:14 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 7500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 7500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 7500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 7500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 7500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 7500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 7500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 7500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 7500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 7500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 21:45:04 2012
+530 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 428
+Time stamp: Sat Mar 17 21:45:04 2012
+530 seconds after started
+
+429
+BO	AH	0.00010729308908949
+BO	BOY	0.00014712170000809
+BO	BAO	0.00016421940223475
+BO	B	0.000223435276272087
+BO	BOW	0.000463662835335977
+7500
+0.25
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.25
+--pgdIter
+7500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 21:45:04 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 7500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 7500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 7500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 7500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 7500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 7500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 7500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 7500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 7500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 7500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 21:53:26 2012
+502 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 436
+Time stamp: Sat Mar 17 21:53:26 2012
+502 seconds after started
+
+437
+BO	BAO	0.000155573759181574
+BO	AH	0.000268534210423218
+BO	B	0.000303120035143696
+BO	BOW	0.000400541214040456
+7500
+1
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1
+--pgdIter
+7500
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 21:53:26 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 7500
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 22:03:30 2012
+604 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 401
+Time stamp: Sat Mar 17 22:03:31 2012
+605 seconds after started
+
+402
+BO	BAO	0.000124088866274123
+BO	AH	0.000236483567616883
+BO	B	0.000246798927266144
+BO	BOW	0.000415248929646152
+10000
+1.25
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1.25
+--pgdIter
+10000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 22:03:31 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 10000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 10000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 10000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 10000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 10000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 10000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 10000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 10000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 10000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1.25 10000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 22:13:38 2012
+607 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 419
+Time stamp: Sat Mar 17 22:13:39 2012
+608 seconds after started
+
+420
+BO	BOY	0.000108721084028466
+BO	BAO	0.000126646983782088
+BO	B	0.000201769747196404
+BO	AH	0.00020523048434131
+BO	BOW	0.000385532394309455
+10000
+1
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1
+--pgdIter
+10000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 22:13:39 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 22:25:16 2012
+697 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 409
+Time stamp: Sat Mar 17 22:25:17 2012
+698 seconds after started
+
+410
+BO	BAO	0.000108937715097844
+BO	AH	0.000217648517246911
+BO	B	0.000394334883637779
+BO	BOW	0.000427536924414504
+10000
+0.75
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.75
+--pgdIter
+10000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 22:25:17 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 10000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 10000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 10000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 10000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 10000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 10000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 10000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 10000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 10000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.75 10000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 22:36:32 2012
+675 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 410
+Time stamp: Sat Mar 17 22:36:32 2012
+675 seconds after started
+
+411
+BO	BOY	0.000104305767923146
+BO	BAO	0.000141460856081365
+BO	AH	0.000173263214310282
+BO	B	0.000302826024382735
+BO	BOW	0.000546841443271096
+10000
+0.5
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.5
+--pgdIter
+10000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 22:36:33 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 10000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 10000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 10000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 10000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 10000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 10000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 10000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 10000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 10000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.5 10000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 22:45:13 2012
+520 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 452
+Time stamp: Sat Mar 17 22:45:14 2012
+521 seconds after started
+
+453
+BO	B	0.00033937323874906
+BO	BOW	0.000367848225714671
+10000
+0.25
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+0.25
+--pgdIter
+10000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 22:45:14 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 10000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 10000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 10000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 10000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 10000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 10000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 10000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 10000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 10000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 0.25 10000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 22:55:59 2012
+645 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 420
+Time stamp: Sat Mar 17 22:56:00 2012
+646 seconds after started
+
+421
+BO	BAO	0.00011054833449606
+BO	AH	0.000167542338704855
+BO	B	0.000332196290497131
+BO	BOW	0.000384516111760781
+10000
+1
+Command line: 
+./m2m-aligner
+-i
+cmu.part0.first1000
+--delX
+--nBest
+1
+--cutoff
+10
+--maxFn
+joint
+--ashish
+--beta
+1
+--pgdIter
+10000
+
+(required)  Input filename : cmu.part0.first1000
+Output filename : 
+Aligner model input filename : 
+Aligner model output filename : 
+Maximum length of substring x (default 2) : 2
+Maximum length of substring y (default 2) : 2
+Allow deletion of substring x (default false) : 1
+Allow deletion of substring y (default false) : 0
+Allow mapping of |x| == |y| > 1 (default false) : 0
+Maximization function [conXY, conYX, joint] (default conYX) : joint
+Training threshold (default 0.01) : 10
+Report score of each alignment (default false) : 0
+Specify prefix output files : 
+Null character used (default _) : _
+Separated character used (default |) : |
+Separated in-character used (default :) : :
+Input file format [l2p, news] (default news) : news
+Generate n-best alignments (default n=1) : 1
+Initial mapping (model) filename (default null) : 
+Cut-off sum prior probability (default 0.5) : 0.5
+Keep unaligned item in the output file (default false) : 0
+Limit the alignment pair to used only from the initFile only (default false) : 0
+ashish mode : 1
+
+Started at: Sat Mar 17 22:56:00 2012
+
+
+Reading file: cmu.part0.first1000
+Initialization ... Maximization ... 
+
+Iteration 1
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 2
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 3
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 4
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 5
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 6
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 7
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 8
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 9
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+Iteration 10
+Expectation ... Ashishsum 1
+sum vector 1
+1000 1 10000
+
+
+Writing aligner model to file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+Reading aligner model from file : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.model
+
+Time stamp: Sat Mar 17 23:08:06 2012
+726 seconds after started
+
+Reading file: cmu.part0.first1000
+There are 1000 pairs to be aligned
+Write aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align
+Write un-aligned data to : cmu.part0.first1000.m-mAlign.2-2.delX.1-best.joint.ashish.align.err
+Aligned 1000 pairs
+There are 0 example pairs having less than 1 alignment candidates
+Dictionary size 409
+Time stamp: Sat Mar 17 23:08:06 2012
+726 seconds after started
+
+410
+BO	BAO	0.000108937715097844
+BO	AH	0.000217648517246911
+BO	B	0.000394334883637779
+BO	BOW	0.000427536924414504

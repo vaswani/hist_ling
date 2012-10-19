@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/config.h.in
+END
+mkinstalldirs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/mkinstalldirs
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/Makefile.in
+END
+ac_cxx_namespaces.m4
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/ac_cxx_namespaces.m4
+END
+ac_cxx_have_sstream.m4
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/ac_cxx_have_sstream.m4
+END
+bb_enable_doxygen.m4
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/bb_enable_doxygen.m4
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/depcomp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/Makefile.am
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/missing
+END
+ac_cxx_have_strstream.m4
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/ac_cxx_have_strstream.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/latentvariable/!svn/ver/64/m2m-aligner-1.0/tclap1.1.0/config/install-sh
+END
