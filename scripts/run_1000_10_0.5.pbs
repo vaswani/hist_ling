@@ -1,0 +1,27 @@
+#! /bin/bash
+#PBS -l nodes=1
+#PBS -l walltime=10:00:00
+#PBS -l mem=2gb
+
+HOME=/home/nlg-03/vaswani/HISTORICAL_LINGUISTICS/INITIAL_EXPERIMENTS/DUTCH/english-kjv-1611.lex
+
+alpha=10
+pgd_iter=1000
+beta=0.5
+
+cd $HOME
+
+WORKDIR="$pgd_iter"_"$alpha"_"$beta"
+mkdir $WORKDIR
+
+cp $HOME/english-kjv-1611.lex.lex.filtered.pairs.training $WORKDIR
+
+cp /home/nlg-03/vaswani/GRAPHEME_TO_PHONEME/em_l0_code_project_on_solid/m2m-aligner $WORKDIR/.
+
+cp -r $WORKDIR $TMPDIR
+
+cd $TMPDIR/"$WORKDIR"
+
+./m2m-aligner  -i english-kjv-1611.lex.lex.filtered.pairs.training --delX --nBest 1 --cutoff 20 --maxFn conYX --ashish --beta $beta --alpha $alpha --pgdIter $pgd_iter -o "$pgd_iter"_"$alpha"_"$beta"_align > output
+
+cp * $HOME/"$WORKDIR"
